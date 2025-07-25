@@ -75,7 +75,7 @@ const Hero = () => {
               <motion.div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 sm:mt-8 justify-center items-center" variants={itemVariants}>
                 {/* Styled as a button but using an anchor tag for project navigation */}
                 <button 
-                  className="w-full sm:w-auto min-h-[44px] px-6 sm:px-8 py-3 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition-all shadow-lg hover:shadow-xl hover:shadow-gray-300/20 flex items-center justify-center group text-sm sm:text-base font-medium"
+                  className="w-full sm:w-auto min-h-[44px] px-6 sm:px-8 py-3 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl hover:shadow-primary/20 flex items-center justify-center group text-sm sm:text-base font-medium"
                   onClick={e => {
                     e.preventDefault();
                     const projectsSection = document.getElementById('projects');
@@ -92,7 +92,7 @@ const Hero = () => {
                 
                 {/* Using the Button component from shadcn but with custom styling to match the explore button */}
                 <button 
-                  className="w-full sm:w-auto min-h-[44px] px-6 sm:px-8 py-3 bg-gray-700 text-white rounded-md hover:bg-gray-800 transition-all shadow-lg hover:shadow-xl hover:shadow-gray-300/20 flex items-center justify-center group text-sm sm:text-base font-medium"
+                  className="w-full sm:w-auto min-h-[44px] px-6 sm:px-8 py-3 bg-accent text-accent-foreground rounded-md hover:bg-accent/90 transition-all shadow-lg hover:shadow-xl hover:shadow-accent/20 flex items-center justify-center group text-sm sm:text-base font-medium"
                   onClick={scrollToContact}
                 >
                   Contact Us
@@ -108,28 +108,28 @@ const Hero = () => {
         <motion.div className="mt-6 md:mt-8 grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4" variants={containerVariants} initial="hidden" animate="visible" transition={{
         delay: 0.6
       }}>
-          <motion.div className="bg-white p-4 md:p-5 rounded-xl shadow-sm border border-gray-100 transform transition-all duration-300 hover:-translate-y-1 hover:shadow-md" variants={itemVariants}>
-            <div className="w-10 h-10 md:w-12 md:h-12 bg-gray-100 flex items-center justify-center rounded-lg text-gray-500 mb-2 md:mb-3">
+          <motion.div className="bg-card p-4 md:p-5 rounded-xl shadow-sm border border-border transform transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:shadow-primary/10" variants={itemVariants}>
+            <div className="w-10 h-10 md:w-12 md:h-12 bg-primary/10 flex items-center justify-center rounded-lg text-primary mb-2 md:mb-3">
               <Cpu className="w-5 h-5 md:w-6 md:h-6" />
             </div>
-            <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2 text-gray-800">Smart Textiles</h3>
-            <p className="text-gray-600 text-xs md:text-sm">Intelligent fabric sensors that seamlessly integrate into clothing and footwear.</p>
+            <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2 text-card-foreground">Smart Textiles</h3>
+            <p className="text-muted-foreground text-xs md:text-sm">Intelligent fabric sensors that seamlessly integrate into clothing and footwear.</p>
           </motion.div>
           
-          <motion.div className="bg-white p-4 md:p-5 rounded-xl shadow-sm border border-gray-100 transform transition-all duration-300 hover:-translate-y-1 hover:shadow-md" variants={itemVariants}>
-            <div className="w-10 h-10 md:w-12 md:h-12 bg-gray-100 flex items-center justify-center rounded-lg text-gray-500 mb-2 md:mb-3">
+          <motion.div className="bg-card p-4 md:p-5 rounded-xl shadow-sm border border-border transform transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:shadow-accent/10" variants={itemVariants}>
+            <div className="w-10 h-10 md:w-12 md:h-12 bg-accent/10 flex items-center justify-center rounded-lg text-accent-foreground mb-2 md:mb-3">
               <Code className="w-5 h-5 md:w-6 md:h-6" />
             </div>
-            <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2 text-gray-800">Adaptive AI</h3>
-            <p className="text-gray-600 text-xs md:text-sm">Industry-specific algorithms that transform textile sensor data into meaningful insights.</p>
+            <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2 text-card-foreground">Adaptive AI</h3>
+            <p className="text-muted-foreground text-xs md:text-sm">Industry-specific algorithms that transform textile sensor data into meaningful insights.</p>
           </motion.div>
           
-          <motion.div className="bg-white p-4 md:p-5 rounded-xl shadow-sm border border-gray-100 transform transition-all duration-300 hover:-translate-y-1 hover:shadow-md" variants={itemVariants}>
-            <div className="w-10 h-10 md:w-12 md:h-12 bg-gray-100 flex items-center justify-center rounded-lg text-gray-500 mb-2 md:mb-3">
+          <motion.div className="bg-card p-4 md:p-5 rounded-xl shadow-sm border border-border transform transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:shadow-wrlds-ocean/10" variants={itemVariants}>
+            <div className="w-10 h-10 md:w-12 md:h-12 bg-wrlds-ocean/10 flex items-center justify-center rounded-lg text-wrlds-ocean mb-2 md:mb-3">
               <Layers className="w-5 h-5 md:w-6 md:h-6" />
             </div>
-            <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2 text-gray-800">Cross-Industry</h3>
-            <p className="text-gray-600 text-xs md:text-sm">Solutions for sports, military, healthcare, industrial, and professional environments.</p>
+            <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2 text-card-foreground">Cross-Industry</h3>
+            <p className="text-muted-foreground text-xs md:text-sm">Solutions for sports, military, healthcare, industrial, and professional environments.</p>
           </motion.div>
         </motion.div>
       </div>
