@@ -64,14 +64,24 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				wrlds: {
-					teal: 'hsl(180 85% 65%)',
+					violet: 'hsl(262 90% 65%)',
+					pink: 'hsl(340 82% 67%)',
+					orange: 'hsl(25 95% 53%)',
+					cyan: 'hsl(180 85% 65%)',
+					emerald: 'hsl(142 76% 36%)',
 					blue: 'hsl(200 90% 50%)',
 					dark: 'hsl(222 84% 4.9%)',
 					light: 'hsl(210 40% 98%)',
-					accent: 'hsl(180 85% 65%)',
-					muted: 'hsl(210 40% 96%)',
-					ocean: 'hsl(195 100% 45%)',
-					cyan: 'hsl(188 94% 68%)'
+				},
+				glass: {
+					bg: 'var(--glass-bg)',
+					border: 'var(--glass-border)',
+				},
+				gradient: {
+					primary: 'var(--gradient-primary)',
+					secondary: 'var(--gradient-secondary)',
+					accent: 'var(--gradient-accent)',
+					hero: 'var(--gradient-hero)',
 				}
 			},
 			borderRadius: {

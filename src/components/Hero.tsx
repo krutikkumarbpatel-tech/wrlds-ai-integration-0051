@@ -68,7 +68,9 @@ const Hero = () => {
         <div className="banner-overlay bg-transparent pt-20 sm:pt-24 md:pt-32 w-full">
           <div className="w-full mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center h-full">
             <motion.div className="w-full max-w-4xl text-center" variants={itemVariants}>
-              <motion.h1 className="banner-title text-white" variants={itemVariants}>The Future of Smart Textile Technology is here.</motion.h1>
+              <motion.h1 className="banner-title text-white" variants={itemVariants}>
+                The Future of <span className="text-gradient-primary">Smart Textile Technology</span> is here.
+              </motion.h1>
               <motion.p className="banner-subtitle text-gray-300 mt-4 sm:mt-6" variants={itemVariants}>
                 We integrate AI-powered textile sensors into clothing, footwear, and wearables.
               </motion.p>
@@ -108,24 +110,24 @@ const Hero = () => {
         <motion.div className="mt-6 md:mt-8 grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4" variants={containerVariants} initial="hidden" animate="visible" transition={{
         delay: 0.6
       }}>
-          <motion.div className="bg-card p-4 md:p-5 rounded-xl shadow-sm border border-border transform transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:shadow-primary/10" variants={itemVariants}>
-            <div className="w-10 h-10 md:w-12 md:h-12 bg-primary/10 flex items-center justify-center rounded-lg text-primary mb-2 md:mb-3">
+          <motion.div className="bg-card p-4 md:p-5 rounded-xl shadow-sm border border-border transform transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover-primary glass-card" variants={itemVariants}>
+            <div className="w-10 h-10 md:w-12 md:h-12 bg-wrlds-violet/10 flex items-center justify-center rounded-lg text-wrlds-violet mb-2 md:mb-3 animate-glow-pulse">
               <Cpu className="w-5 h-5 md:w-6 md:h-6" />
             </div>
             <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2 text-card-foreground">Smart Textiles</h3>
             <p className="text-muted-foreground text-xs md:text-sm">Intelligent fabric sensors that seamlessly integrate into clothing and footwear.</p>
           </motion.div>
           
-          <motion.div className="bg-card p-4 md:p-5 rounded-xl shadow-sm border border-border transform transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:shadow-accent/10" variants={itemVariants}>
-            <div className="w-10 h-10 md:w-12 md:h-12 bg-accent/10 flex items-center justify-center rounded-lg text-accent-foreground mb-2 md:mb-3">
+          <motion.div className="bg-card p-4 md:p-5 rounded-xl shadow-sm border border-border transform transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover-accent glass-card" variants={itemVariants}>
+            <div className="w-10 h-10 md:w-12 md:h-12 bg-wrlds-pink/10 flex items-center justify-center rounded-lg text-wrlds-pink mb-2 md:mb-3">
               <Code className="w-5 h-5 md:w-6 md:h-6" />
             </div>
             <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2 text-card-foreground">Adaptive AI</h3>
             <p className="text-muted-foreground text-xs md:text-sm">Industry-specific algorithms that transform textile sensor data into meaningful insights.</p>
           </motion.div>
           
-          <motion.div className="bg-card p-4 md:p-5 rounded-xl shadow-sm border border-border transform transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:shadow-wrlds-ocean/10" variants={itemVariants}>
-            <div className="w-10 h-10 md:w-12 md:h-12 bg-wrlds-ocean/10 flex items-center justify-center rounded-lg text-wrlds-ocean mb-2 md:mb-3">
+          <motion.div className="bg-card p-4 md:p-5 rounded-xl shadow-sm border border-border transform transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover-glow glass-card" variants={itemVariants}>
+            <div className="w-10 h-10 md:w-12 md:h-12 bg-wrlds-orange/10 flex items-center justify-center rounded-lg text-wrlds-orange mb-2 md:mb-3">
               <Layers className="w-5 h-5 md:w-6 md:h-6" />
             </div>
             <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2 text-card-foreground">Cross-Industry</h3>
