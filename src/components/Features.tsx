@@ -24,26 +24,26 @@ const Features = () => {
   const features = [
     {
       icon: <Activity className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Performance Analytics",
-      description: "Advanced textile sensors that monitor biomechanics, provide real-time feedback, and prevent injuries through predictive analysis in professional athletic equipment.",
+      title: "Tire Operations Management",
+      description: "Comprehensive tire tracking system that monitors installation, rotation, punctures, and remolding operations. Track tire-related costs and maintenance schedules with RFID integration.",
       image: "/lovable-uploads/48e540e5-6a25-44e4-b3f7-80f3bfc2777a.png"
     },
     {
       icon: <Shield className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Defense Systems",
-      description: "Mission-critical textile sensors integrated into tactical equipment for comprehensive soldier monitoring, environmental threat detection, and enhanced operational safety.",
+      title: "Video Telematics & ADAS",
+      description: "Advanced driver monitoring with live streaming, incident recording, and ADAS/DMS alerts. Monitor driver behavior, fatigue detection, and collision warnings for enhanced safety.",
       image: "/lovable-uploads/48ecf6e2-5a98-4a9d-af6f-ae2265cd4098.png"
     },
     {
       icon: <HardHat className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Industrial Safety Management",
-      description: "Comprehensive safety monitoring through intelligent workwear that detects environmental hazards, monitors worker fatigue, and prevents workplace incidents through proactive alert systems.",
+      title: "Fleet Safety Management",
+      description: "Real-time monitoring of driver violations, harsh braking, over-speeding, and safety compliance. Generate comprehensive safety reports and driver performance analytics.",
       image: "/lovable-uploads/cf8966e3-de0d-445f-9fbd-ee6c48daa7ff.png"
     },
     {
       icon: <Zap className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Environmental Control Systems",
-      description: "Intelligent thermal management textiles that automatically adapt to environmental conditions and body temperature for optimal comfort and performance in extreme environments.",
+      title: "Tire Stock Management",
+      description: "Eliminate paperwork with digital tire inventory management. Track new and used tire stocks, upload data via Excel, and get precise stock location and inspection dates.",
       image: "/lovable-uploads/6739bd63-bf19-4abd-bb23-0b613bbf7ac8.png"
     }
   ];
@@ -110,16 +110,16 @@ const Features = () => {
 
   const sensorCaseStudies = [{
     image: "/lovable-uploads/843446fe-638e-4efb-b885-ed3cd505325a.png",
-    title: "Firefighter Safety",
-    description: "Advanced protective gear with gas, temperature, positioning, and motion sensors for safer emergency response."
+    title: "Freight Transportation",
+    description: "Advanced video telematics for freight monitoring with real-time driver behavior analysis, cargo security, and route optimization for long-haul operations."
   }, {
     image: "/lovable-uploads/5463c9c5-0946-4280-a14b-17636ff69a98.png",
-    title: "Industrial Worker Protection",
-    description: "Safety workwear with vibration, pressure, and heating sensors to prevent injuries and monitor environmental hazards."
+    title: "Fleet Tire Management",
+    description: "Comprehensive tire monitoring with inventory tracking, maintenance scheduling, and cost analysis to optimize tire utilization and reduce operational expenses."
   }, {
     image: "/lovable-uploads/c5f8ee24-9815-4ebe-b65d-6f3d449feb8b.png",
-    title: "Sports Performance",
-    description: "Smart athletic wear with temperature and pressure sensors that track hydration, foot strike patterns, and performance metrics."
+    title: "Driver Safety Monitoring",
+    description: "Advanced ADAS and DMS systems with fatigue detection, collision warnings, and driver performance tracking to enhance fleet safety and compliance."
   }];
   const stepFlowItems = [{
     icon: <Microchip className="h-10 w-10 text-gray-700" />,
@@ -153,11 +153,11 @@ const Features = () => {
         <div className="w-full px-4 sm:px-6 lg:px-8" ref={featuresRef}> 
           <div className="text-center mb-10 max-w-3xl mx-auto feature-item">
             <div className="inline-block mb-2 px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
-              Smart Textile Solutions
+              Fleet Management Solutions
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Maximize operational efficiency with intelligent textile monitoring</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Maximize fleet safety with comprehensive monitoring systems</h2>
             <p className="text-gray-600 mt-4">
-              Invest and empower your organization with advanced textile sensor technology. Our comprehensive solutions transform traditional fabrics into intelligent monitoring systems that enhance safety, optimize performance, and deliver real-time operational insights.
+              Invest and empower your fleet operations with advanced tire management and video telematics technology. Our comprehensive solutions transform traditional fleet monitoring into intelligent systems that enhance safety, optimize tire utilization, and deliver real-time operational insights.
             </p>
           </div>
           
@@ -279,12 +279,12 @@ const Features = () => {
           <div className="mt-16 mb-8 feature-item">
             <div className="text-center mb-8">
               <div className="inline-block mb-2 px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
-                Textile Sensor Applications
+                Fleet Technology Applications
               </div>
-              <h3 className="text-2xl font-bold">Real-World Use Cases</h3>
+              <h3 className="text-2xl font-bold">Real-World Fleet Solutions</h3>
               <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
-                Explore how our textile sensors are applied in different professional contexts, 
-                from emergency response to construction and athletics.
+                Explore how our tire management and video telematics solutions are applied across different transportation sectors, 
+                from freight operations to fleet safety and driver monitoring.
                 <span className="block text-sm mt-1 text-blue-500">Scroll horizontally to see more examples →</span>
               </p>
             </div>
@@ -312,7 +312,7 @@ const Features = () => {
                 </div>
               </Carousel>
               <div className="text-center mt-6 text-sm text-gray-600">
-                <p className="font-medium">These examples showcase just a few ways our textile sensors can enhance safety and performance</p>
+                <p className="font-medium">These examples showcase just a few ways our fleet management technology can enhance safety and operational efficiency</p>
               </div>
             </div>
           </div>

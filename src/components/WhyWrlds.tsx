@@ -86,10 +86,10 @@ const WhyWrlds = () => {
         margin: "-100px"
       }} variants={containerVariants}>
           <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-3">
-            Enterprise Smart Textile Solutions
+            Fleet Management Excellence
           </motion.h2>
           <motion.p variants={itemVariants} className="text-gray-600 text-lg max-w-3xl mx-auto">
-            Revolutionize your operations with intelligent textile technology. Our comprehensive solutions deliver measurable results across safety, performance, and operational efficiency.
+            Transform your fleet operations with comprehensive tire management and video telematics solutions. Our integrated platform delivers measurable results across safety, efficiency, and cost optimization.
           </motion.p>
         </motion.div>
         
@@ -104,7 +104,7 @@ const WhyWrlds = () => {
             <h3 className="text-gray-900 text-2xl lg:text-3xl font-bold mb-3">
               <AnimatedCounter end={3.8} decimals={1} suffix=" Billion" /> USD
             </h3>
-            <p className="text-gray-700">Global smart textiles market value projected by 2030, representing unprecedented opportunities for organizations adopting intelligent textile technologies</p>
+            <p className="text-gray-700">Global fleet management market value projected by 2030, with tire costs being the second-largest expense after fuel for fleet operations</p>
           </motion.div>
           
           <motion.div variants={itemVariants} className="bg-gray-100 p-6 rounded-xl border border-gray-200 text-center hover:bg-gray-200 transition-all">
@@ -115,7 +115,7 @@ const WhyWrlds = () => {
               <AnimatedCounter end={60} suffix="%" /> 
             </h3>
             <p className="text-gray-700">
-              Reduction in operational inefficiencies achievable through comprehensive smart textile monitoring systems and proactive safety management
+              Reduction in tire-related costs achievable through comprehensive tire management systems and proactive maintenance scheduling
             </p>
           </motion.div>
           
@@ -127,7 +127,7 @@ const WhyWrlds = () => {
               <AnimatedCounter end={80} suffix="%" />
             </h3>
             <p className="text-gray-700">
-              Improvement in safety compliance and incident prevention through real-time monitoring and predictive analytics systems
+              Improvement in driver safety and accident prevention through video telematics and real-time monitoring systems
             </p>
           </motion.div>
         </motion.div>
@@ -138,10 +138,10 @@ const WhyWrlds = () => {
         }} variants={containerVariants}>
           <motion.div variants={itemVariants} className="text-center mb-8">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
-              Comprehensive Smart Textile Solutions
+              Comprehensive Fleet Solutions
             </h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Streamline operations, enhance safety protocols, and drive innovation with our integrated textile sensor technology platform designed for enterprise-grade performance.
+              Optimize fleet operations, enhance driver safety, and reduce operational costs with our integrated tire management and video telematics platform designed for enterprise-grade performance.
             </p>
           </motion.div>
           
@@ -152,8 +152,8 @@ const WhyWrlds = () => {
                   <BarChart className="w-6 h-6 text-gray-700" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Advanced Monitoring Systems</h4>
-                  <p className="text-gray-700">Implement comprehensive real-time monitoring solutions that enhance operational visibility and drive performance optimization.</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Tire Management Systems</h4>
+                  <p className="text-gray-700">Comprehensive tire tracking, inventory management, and maintenance scheduling that eliminates paperwork and optimizes tire utilization.</p>
                 </div>
               </div>
             </motion.div>
@@ -164,8 +164,8 @@ const WhyWrlds = () => {
                   <Sparkles className="w-6 h-6 text-gray-700" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Safety & Compliance Excellence</h4>
-                  <p className="text-gray-700">Achieve superior safety standards and regulatory compliance through intelligent monitoring and predictive safety management systems.</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Video Telematics & Driver Safety</h4>
+                  <p className="text-gray-700">Advanced driver monitoring with ADAS/DMS alerts, live streaming, and behavior analysis to enhance fleet safety and reduce accidents.</p>
                 </div>
               </div>
             </motion.div>
@@ -176,8 +176,8 @@ const WhyWrlds = () => {
                   <Zap className="w-6 h-6 text-gray-700" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Operational Efficiency</h4>
-                  <p className="text-gray-700">Optimize resource allocation and reduce operational costs through data-driven insights and automated monitoring systems.</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Fleet Analytics & Reporting</h4>
+                  <p className="text-gray-700">Real-time fleet monitoring with comprehensive reporting, cost analysis, and performance insights for data-driven decision making.</p>
                 </div>
               </div>
             </motion.div>
@@ -188,8 +188,8 @@ const WhyWrlds = () => {
                   <Rocket className="w-6 h-6 text-gray-700" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Scalable Solutions</h4>
-                  <p className="text-gray-700">Deploy enterprise-grade textile sensor networks that scale with your organization's growth and evolving operational requirements.</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">24/7 Fleet Monitoring</h4>
+                  <p className="text-gray-700">Continuous surveillance with mobile app support, multi-channel access, and real-time alerts for proactive fleet management.</p>
                 </div>
               </div>
             </motion.div>
