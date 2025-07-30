@@ -24,26 +24,26 @@ const Features = () => {
   const features = [
     {
       icon: <Activity className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Sports Performance",
-      description: "Specialized fabrics that analyze form, provide instant feedback, and help prevent injuries in athletic equipment.",
+      title: "Performance Analytics",
+      description: "Advanced textile sensors that monitor biomechanics, provide real-time feedback, and prevent injuries through predictive analysis in professional athletic equipment.",
       image: "/lovable-uploads/48e540e5-6a25-44e4-b3f7-80f3bfc2777a.png"
     },
     {
       icon: <Shield className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Military & Defense",
-      description: "Tactical gear with embedded sensors for soldier health monitoring, environmental awareness, and enhanced safety.",
+      title: "Defense Systems",
+      description: "Mission-critical textile sensors integrated into tactical equipment for comprehensive soldier monitoring, environmental threat detection, and enhanced operational safety.",
       image: "/lovable-uploads/48ecf6e2-5a98-4a9d-af6f-ae2265cd4098.png"
     },
     {
       icon: <HardHat className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Industrial Safety",
-      description: "Protective workwear that detects hazards, monitors fatigue, and prevents workplace injuries through early intervention.",
+      title: "Industrial Safety Management",
+      description: "Comprehensive safety monitoring through intelligent workwear that detects environmental hazards, monitors worker fatigue, and prevents workplace incidents through proactive alert systems.",
       image: "/lovable-uploads/cf8966e3-de0d-445f-9fbd-ee6c48daa7ff.png"
     },
     {
       icon: <Zap className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Thermal Regulation",
-      description: "Adaptive heating and cooling textiles that respond to body temperature and environmental conditions.",
+      title: "Environmental Control Systems",
+      description: "Intelligent thermal management textiles that automatically adapt to environmental conditions and body temperature for optimal comfort and performance in extreme environments.",
       image: "/lovable-uploads/6739bd63-bf19-4abd-bb23-0b613bbf7ac8.png"
     }
   ];
@@ -153,10 +153,11 @@ const Features = () => {
         <div className="w-full px-4 sm:px-6 lg:px-8" ref={featuresRef}> 
           <div className="text-center mb-10 max-w-3xl mx-auto feature-item">
             <div className="inline-block mb-2 px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
-              Textile Sensor Applications
+              Smart Textile Solutions
             </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Maximize operational efficiency with intelligent textile monitoring</h2>
             <p className="text-gray-600 mt-4">
-              Our textile sensor technology transforms ordinary fabrics into intelligent interfaces that collect data, monitor conditions, and enhance performance across diverse sectors.
+              Invest and empower your organization with advanced textile sensor technology. Our comprehensive solutions transform traditional fabrics into intelligent monitoring systems that enhance safety, optimize performance, and deliver real-time operational insights.
             </p>
           </div>
           

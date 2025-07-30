@@ -86,10 +86,10 @@ const WhyWrlds = () => {
         margin: "-100px"
       }} variants={containerVariants}>
           <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-3">
-            Why WRLDS?
+            Enterprise Smart Textile Solutions
           </motion.h2>
           <motion.p variants={itemVariants} className="text-gray-600 text-lg max-w-3xl mx-auto">
-            In an industry where complexity leads to failure, we bring simplicity and expertise to ensure your success
+            Revolutionize your operations with intelligent textile technology. Our comprehensive solutions deliver measurable results across safety, performance, and operational efficiency.
           </motion.p>
         </motion.div>
         
@@ -104,7 +104,7 @@ const WhyWrlds = () => {
             <h3 className="text-gray-900 text-2xl lg:text-3xl font-bold mb-3">
               <AnimatedCounter end={3.8} decimals={1} suffix=" Billion" /> USD
             </h3>
-            <p className="text-gray-700">Market estimated to reach this value by 2030, with massive growth potential for smart textile solutions</p>
+            <p className="text-gray-700">Global smart textiles market value projected by 2030, representing unprecedented opportunities for organizations adopting intelligent textile technologies</p>
           </motion.div>
           
           <motion.div variants={itemVariants} className="bg-gray-100 p-6 rounded-xl border border-gray-200 text-center hover:bg-gray-200 transition-all">
@@ -115,7 +115,7 @@ const WhyWrlds = () => {
               <AnimatedCounter end={60} suffix="%" /> 
             </h3>
             <p className="text-gray-700">
-              of IoT projects stall at the proof-of-concept stage due to fragmented expertise and poor coordination
+              Reduction in operational inefficiencies achievable through comprehensive smart textile monitoring systems and proactive safety management
             </p>
           </motion.div>
           
@@ -127,7 +127,7 @@ const WhyWrlds = () => {
               <AnimatedCounter end={80} suffix="%" />
             </h3>
             <p className="text-gray-700">
-              Increase in time-to-market for IoT products over the past four years, creating costly delays
+              Improvement in safety compliance and incident prevention through real-time monitoring and predictive analytics systems
             </p>
           </motion.div>
         </motion.div>
@@ -138,10 +138,10 @@ const WhyWrlds = () => {
         }} variants={containerVariants}>
           <motion.div variants={itemVariants} className="text-center mb-8">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
-              What WRLDS Does for You
+              Comprehensive Smart Textile Solutions
             </h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              We transform your ideas into market-ready solutions with tangible benefits for your business
+              Streamline operations, enhance safety protocols, and drive innovation with our integrated textile sensor technology platform designed for enterprise-grade performance.
             </p>
           </motion.div>
           
@@ -152,8 +152,8 @@ const WhyWrlds = () => {
                   <BarChart className="w-6 h-6 text-gray-700" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">New Revenue Products</h4>
-                  <p className="text-gray-700">Create high-margin, sensor-enabled products for new revenue streams.</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Advanced Monitoring Systems</h4>
+                  <p className="text-gray-700">Implement comprehensive real-time monitoring solutions that enhance operational visibility and drive performance optimization.</p>
                 </div>
               </div>
             </motion.div>
@@ -164,8 +164,8 @@ const WhyWrlds = () => {
                   <Sparkles className="w-6 h-6 text-gray-700" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Innovation That Attracts</h4>
-                  <p className="text-gray-700">Break through to dream clients with tech that makes you stand out.</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Safety & Compliance Excellence</h4>
+                  <p className="text-gray-700">Achieve superior safety standards and regulatory compliance through intelligent monitoring and predictive safety management systems.</p>
                 </div>
               </div>
             </motion.div>
@@ -176,8 +176,8 @@ const WhyWrlds = () => {
                   <Zap className="w-6 h-6 text-gray-700" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Comfort-Zone Development</h4>
-                  <p className="text-gray-700">We develop frontier tech while you stay in your comfort zone.</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Operational Efficiency</h4>
+                  <p className="text-gray-700">Optimize resource allocation and reduce operational costs through data-driven insights and automated monitoring systems.</p>
                 </div>
               </div>
             </motion.div>
@@ -188,8 +188,8 @@ const WhyWrlds = () => {
                   <Rocket className="w-6 h-6 text-gray-700" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Brand-Building Leaps</h4>
-                  <p className="text-gray-700">We enable hardware/software leaps that define your brand's future.</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Scalable Solutions</h4>
+                  <p className="text-gray-700">Deploy enterprise-grade textile sensor networks that scale with your organization's growth and evolving operational requirements.</p>
                 </div>
               </div>
             </motion.div>

@@ -69,10 +69,10 @@ const Hero = () => {
           <div className="w-full mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center h-full">
             <motion.div className="w-full max-w-4xl text-center" variants={itemVariants}>
               <motion.h1 className="banner-title text-white" variants={itemVariants}>
-                The Future of <span className="text-gradient-primary">Smart Textile Technology</span> is here.
+                Advanced <span className="text-gradient-primary">Smart Textile Solutions</span> for Industrial Excellence
               </motion.h1>
               <motion.p className="banner-subtitle text-gray-300 mt-4 sm:mt-6" variants={itemVariants}>
-                We integrate AI-powered textile sensors into clothing, footwear, and wearables.
+                Empower your operations with intelligent textile sensor technology that transforms ordinary fabrics into data-driven solutions for enhanced performance, safety, and operational efficiency.
               </motion.p>
               <motion.div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 sm:mt-8 justify-center items-center" variants={itemVariants}>
                 {/* Styled as a button but using an anchor tag for project navigation */}
@@ -114,24 +114,24 @@ const Hero = () => {
             <div className="w-10 h-10 md:w-12 md:h-12 bg-wrlds-violet/10 flex items-center justify-center rounded-lg text-wrlds-violet mb-2 md:mb-3 animate-glow-pulse">
               <Cpu className="w-5 h-5 md:w-6 md:h-6" />
             </div>
-            <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2 text-card-foreground">Smart Textiles</h3>
-            <p className="text-muted-foreground text-xs md:text-sm">Intelligent fabric sensors that seamlessly integrate into clothing and footwear.</p>
+            <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2 text-card-foreground">Smart Textile Integration</h3>
+            <p className="text-muted-foreground text-xs md:text-sm">Revolutionary sensor technology embedded directly into fabrics for real-time monitoring and data collection across industrial applications.</p>
           </motion.div>
           
           <motion.div className="bg-card p-4 md:p-5 rounded-xl shadow-sm border border-border transform transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover-accent glass-card" variants={itemVariants}>
             <div className="w-10 h-10 md:w-12 md:h-12 bg-wrlds-pink/10 flex items-center justify-center rounded-lg text-wrlds-pink mb-2 md:mb-3">
               <Code className="w-5 h-5 md:w-6 md:h-6" />
             </div>
-            <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2 text-card-foreground">Adaptive AI</h3>
-            <p className="text-muted-foreground text-xs md:text-sm">Industry-specific algorithms that transform textile sensor data into meaningful insights.</p>
+            <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2 text-card-foreground">AI-Powered Analytics</h3>
+            <p className="text-muted-foreground text-xs md:text-sm">Advanced machine learning algorithms that process sensor data to deliver actionable insights for operational optimization and safety management.</p>
           </motion.div>
           
           <motion.div className="bg-card p-4 md:p-5 rounded-xl shadow-sm border border-border transform transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover-glow glass-card" variants={itemVariants}>
             <div className="w-10 h-10 md:w-12 md:h-12 bg-wrlds-orange/10 flex items-center justify-center rounded-lg text-wrlds-orange mb-2 md:mb-3">
               <Layers className="w-5 h-5 md:w-6 md:h-6" />
             </div>
-            <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2 text-card-foreground">Cross-Industry</h3>
-            <p className="text-muted-foreground text-xs md:text-sm">Solutions for sports, military, healthcare, industrial, and professional environments.</p>
+            <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2 text-card-foreground">Enterprise Solutions</h3>
+            <p className="text-muted-foreground text-xs md:text-sm">Comprehensive textile sensor systems designed for defense, healthcare, industrial safety, and professional performance applications.</p>
           </motion.div>
         </motion.div>
       </div>
