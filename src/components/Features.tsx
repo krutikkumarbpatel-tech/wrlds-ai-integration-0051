@@ -153,14 +153,14 @@ const Features = () => {
   }];
 
   return <>
-      <section id="features" className="relative bg-white overflow-hidden py-10 md:py-[50px] w-full">
+      <section id="features" className="relative bg-gradient-primary overflow-hidden py-10 md:py-[50px] w-full">
         <div className="w-full px-4 sm:px-6 lg:px-8" ref={featuresRef}> 
           <div className="text-center mb-10 max-w-3xl mx-auto feature-item">
-            <div className="inline-block mb-2 px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
+            <div className="inline-block mb-2 px-3 py-1 bg-primary/20 text-primary rounded-full text-sm font-medium">
               Fleet Management Solutions
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Maximize fleet safety with comprehensive monitoring systems</h2>
-            <p className="text-gray-600 mt-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Maximize fleet safety with comprehensive monitoring systems</h2>
+            <p className="text-white/90 mt-4">
               Invest and empower your fleet operations with advanced tire management and video telematics technology. Our comprehensive solutions transform traditional fleet monitoring into intelligent systems that enhance safety, optimize tire utilization, and deliver real-time operational insights.
             </p>
           </div>
