@@ -8,51 +8,51 @@ import { useIsMobile } from "@/hooks/use-mobile";
 const projects = [
   {
     id: 1,
-    title: "6th SENSE Safety System",
-    brand: "FireCat Group",
-    description: "AI-driven sensor solution integrated into uniforms for law enforcement, military and firefighters, providing real-time vital monitoring and situational awareness in high-risk environments.",
-    tags: ["Safety", "Military", "AI Sensors", "Real-time Monitoring"],
-    imageUrl: "/lovable-uploads/93ab0638-8190-4ccf-897f-21fda7f4f5ad.png",
+    title: "Fleet Management Platform",
+    brand: "TransLogistics Corp",
+    description: "Comprehensive fleet management solution with tire monitoring, video telematics, and driver safety systems for commercial transportation operations.",
+    tags: ["Fleet Management", "Tire Monitoring", "Video Telematics", "Safety"],
+    imageUrl: "/assets/fleet-operations.jpg",
     isFeatured: true,
     link: "/projects/firecat",
     details: `
-      FireCat Group aimed to enhance safety in high-risk environments. WRLDS Technologies provided the 6th SENSE solution with secure real-time data transmission, high-quality sensors resistant to extreme conditions, integrated AI-powered clothing, and a centralized control unit. Features include Man Down Alarm, GPS positioning, vital sign monitoring, and Panic Button. Benefits: life-saving technology, machine learning preventing false alarms, durable hardware with 7-10 year lifespan, washable sensors, and Plug & Play installation with 12-20 hours of operation per charge.
+      TransLogistics Corp needed to modernize their fleet operations. WRLDS Technologies provided an integrated solution with real-time tire monitoring, video telematics with ADAS/DMS alerts, comprehensive driver safety tracking, and centralized fleet management dashboard. Features include tire pressure monitoring, wear analysis, video streaming, driver behavior analytics, and maintenance scheduling. Benefits: reduced tire costs by 40%, improved driver safety scores by 60%, automated maintenance alerts, and real-time fleet visibility with 24/7 monitoring capabilities.
     `
   },
   {
     id: 2,
-    title: "Performance Athletic Footwear",
-    brand: "Global Sports Retail Leader",
-    description: "Smart Footwear R&D aiming to revolutionize development, fitting, and testing of athletic footwear.",
-    tags: ["Sports", "R&D", "Footwear", "Athletic Performance"],
-    imageUrl: "/lovable-uploads/b0622048-17b4-4c75-a3f0-6c9e17de1d09.png",
+    title: "Video Telematics System",
+    brand: "Highway Transport Solutions",
+    description: "Advanced video monitoring system with ADAS alerts, driver fatigue detection, and incident recording for long-haul trucking operations.",
+    tags: ["Video Telematics", "ADAS", "Driver Monitoring", "Safety"],
+    imageUrl: "/assets/fleet-manager.jpg",
     link: "/projects/sport-retail"
   },
   {
     id: 3,
-    title: "Workwear Climate Control",
-    brand: "European Multinational Textile Producer",
-    description: "Fully integrated temperature controls for professionals working in extreme heat and cold. Modular approach to enable full-body systems.",
-    tags: ["Climate Control", "Workwear", "Temperature Regulation", "Extreme Conditions"],
-    imageUrl: "/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png",
+    title: "Tire Management System",
+    brand: "Fleet Pro Services",
+    description: "Digital tire inventory and maintenance system eliminating paperwork and optimizing tire utilization across multiple depot locations.",
+    tags: ["Tire Management", "Inventory", "Maintenance", "Cost Optimization"],
+    imageUrl: "/assets/fleet-operations.jpg",
     link: "/projects/workwear"
   },
   {
     id: 4,
-    title: "Ice Hockey Elite Skill Tracker",
-    brand: "Mars Blades",
-    description: "R&D product evaluating data from single IMU embedded in the hockey shoe. Aim: establish motion patterns that lead to ultimate acceleration, speed, and maneuverability.",
-    tags: ["Ice Hockey", "Motion Analysis", "Performance Tracking", "Sports"],
-    imageUrl: "/lovable-uploads/c30e0487-2fa0-41d1-9a0b-699cb2855388.png",
+    title: "Driver Safety Analytics",
+    brand: "SafeFleet Logistics",
+    description: "Comprehensive driver behavior monitoring with real-time alerts for harsh braking, speeding, and safety compliance reporting.",
+    tags: ["Driver Safety", "Behavior Analytics", "Compliance", "Reporting"],
+    imageUrl: "/assets/fleet-manager.jpg",
     link: "/projects/hockey"
   },
   {
     id: 5,
-    title: "Dog Activity Counter",
-    brand: "UK Insurance Giant",
-    description: "R&D project embedding a step counter in a dog collar. Measures daily activity and sends real-time data to the cloud for veterinary consultancies.",
-    tags: ["Pet Technology", "Insurance", "Activity Tracking", "R&D"],
-    imageUrl: "/lovable-uploads/d5ce901e-2ce0-4f2a-bce1-f0ca5d6192df.png",
+    title: "Fleet Optimization Platform",
+    brand: "Commercial Transport Inc",
+    description: "Integrated platform combining tire management, video telematics, and operational analytics for maximum fleet efficiency and cost reduction.",
+    tags: ["Fleet Optimization", "Analytics", "Cost Reduction", "Efficiency"],
+    imageUrl: "/assets/fleet-operations.jpg",
     link: "/projects/pet-tracker"
   }
 ];
@@ -133,10 +133,10 @@ const Projects = () => {
             Customer Cases
           </div>
           <h2 className="text-3xl font-bold mb-3">
-            From Textile to Intelligence
+            Fleet Management Solutions
           </h2>
           <p className="text-gray-600">
-            Explore how our textile sensor technology is revolutionizing multiple industries with intelligent fabric solutions tailored to specific needs.
+            Explore how our tire management and video telematics solutions are transforming fleet operations with intelligent monitoring systems tailored to transportation needs.
           </p>
           {isMobile && (
             <div className="flex items-center justify-center mt-4 animate-pulse-slow">

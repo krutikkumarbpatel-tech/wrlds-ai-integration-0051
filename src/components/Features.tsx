@@ -11,6 +11,10 @@ import { Progress } from "@/components/ui/progress";
 import { useIsMobile } from '@/hooks/use-mobile';
 import { Button } from "@/components/ui/button";
 import { useScrollHijack } from '@/hooks/useScrollHijack';
+import tireManagementFeature from "@/assets/tire-management-feature.jpg";
+import videoTelematicsFeature from "@/assets/video-telematics-feature.jpg";
+import fleetSafetyFeature from "@/assets/fleet-safety-feature.jpg";
+import tireStockFeature from "@/assets/tire-stock-feature.jpg";
 
 const Features = () => {
   const featuresRef = useRef<HTMLDivElement>(null);
@@ -26,25 +30,25 @@ const Features = () => {
       icon: <Activity className="w-10 h-10 text-white transition-transform duration-300 transform" />,
       title: "Tire Operations Management",
       description: "Comprehensive tire tracking system that monitors installation, rotation, punctures, and remolding operations. Track tire-related costs and maintenance schedules with RFID integration.",
-      image: "/lovable-uploads/48e540e5-6a25-44e4-b3f7-80f3bfc2777a.png"
+      image: tireManagementFeature
     },
     {
       icon: <Shield className="w-10 h-10 text-white transition-transform duration-300 transform" />,
       title: "Video Telematics & ADAS",
       description: "Advanced driver monitoring with live streaming, incident recording, and ADAS/DMS alerts. Monitor driver behavior, fatigue detection, and collision warnings for enhanced safety.",
-      image: "/lovable-uploads/48ecf6e2-5a98-4a9d-af6f-ae2265cd4098.png"
+      image: videoTelematicsFeature
     },
     {
       icon: <HardHat className="w-10 h-10 text-white transition-transform duration-300 transform" />,
       title: "Fleet Safety Management",
       description: "Real-time monitoring of driver violations, harsh braking, over-speeding, and safety compliance. Generate comprehensive safety reports and driver performance analytics.",
-      image: "/lovable-uploads/cf8966e3-de0d-445f-9fbd-ee6c48daa7ff.png"
+      image: fleetSafetyFeature
     },
     {
       icon: <Zap className="w-10 h-10 text-white transition-transform duration-300 transform" />,
       title: "Tire Stock Management",
       description: "Eliminate paperwork with digital tire inventory management. Track new and used tire stocks, upload data via Excel, and get precise stock location and inspection dates.",
-      image: "/lovable-uploads/6739bd63-bf19-4abd-bb23-0b613bbf7ac8.png"
+      image: tireStockFeature
     }
   ];
 
@@ -109,15 +113,15 @@ const Features = () => {
   }, []);
 
   const sensorCaseStudies = [{
-    image: "/lovable-uploads/843446fe-638e-4efb-b885-ed3cd505325a.png",
+    image: fleetSafetyFeature,
     title: "Freight Transportation",
     description: "Advanced video telematics for freight monitoring with real-time driver behavior analysis, cargo security, and route optimization for long-haul operations."
   }, {
-    image: "/lovable-uploads/5463c9c5-0946-4280-a14b-17636ff69a98.png",
+    image: tireManagementFeature,
     title: "Fleet Tire Management",
     description: "Comprehensive tire monitoring with inventory tracking, maintenance scheduling, and cost analysis to optimize tire utilization and reduce operational expenses."
   }, {
-    image: "/lovable-uploads/c5f8ee24-9815-4ebe-b65d-6f3d449feb8b.png",
+    image: videoTelematicsFeature,
     title: "Driver Safety Monitoring",
     description: "Advanced ADAS and DMS systems with fatigue detection, collision warnings, and driver performance tracking to enhance fleet safety and compliance."
   }];
