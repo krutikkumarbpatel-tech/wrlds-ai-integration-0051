@@ -241,13 +241,13 @@ const Features = () => {
                       </div>
                     </div>
                     <h3 className={cn(
-                      "font-semibold text-white",
+                      "font-semibold text-accent",
                       isHijacked ? "text-4xl mb-6" : "text-xl mb-2"
                     )}>
                       {feature.title}
                     </h3>
                     <p className={cn(
-                      "text-white/90",
+                      "text-primary",
                       isHijacked ? "text-lg max-w-2xl" : "text-sm"
                     )}>
                       {feature.description}
